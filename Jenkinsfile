@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git url: '',
+                git url: 'https://github.com/Lavanya-Sundar/labtest.git',
                     branch: 'main'
             }
         }
