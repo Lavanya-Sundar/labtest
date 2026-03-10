@@ -3,8 +3,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git url: 'https://github.com/Lavanya-Sundar/labtest.git',
-                    branch: 'main'
+                git url: 'https://github.com/Lavanya-Sundar/labtest.git',branch: 'main'
             }
         }
         stage('Run Script') {
